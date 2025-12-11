@@ -7,17 +7,17 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "allowImportingTsExtensions": true,
-    "isolatedModules": true,
     "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
+    "types": [],
     "paths": {
-      "@client/*": ["./client/*"]
+      "@client/*": ["./src/client/*"],
+      "@server/*": ["./src/server/*"]
     }
   },
-  "include": ["client/**/*", "server/**/*", "taujs.config.ts"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src/client/**/*", "src/server/**/*", "taujs.config.ts"]
 }

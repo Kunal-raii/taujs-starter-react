@@ -4,10 +4,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "NODE_ENV=development tsx watch --ignore vite.config.ts --trace-warnings ./server/index.ts --loglevel verbose",
+    "dev": "NODE_ENV=development tsx watch --ignore vite.config.ts --trace-warnings ./src/server/index.ts --loglevel verbose",
     "build:client": "tsx build.ts",
     "build:entry-server": "BUILD_MODE=ssr tsx build.ts",
-    "build:server": "esbuild server/index.ts --bundle --platform=node --format=esm --outfile=dist/server/index.js --external:fastify --external:@taujs/server --external:@taujs/react",
+    "build:server": "esbuild src/server/index.ts --bundle --platform=node --format=esm --outfile=dist/server/index.js --external:fastify --external:@taujs/server --external:@taujs/react",
     "build": "npm run build:client && npm run build:entry-server && npm run build:server",
     "start": "NODE_ENV=production node dist/server/index.js"
   },

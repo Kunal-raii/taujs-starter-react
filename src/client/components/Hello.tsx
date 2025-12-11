@@ -1,18 +1,17 @@
 import { useSSRStore } from "@taujs/react";
 
+import config from "../../../taujs.config";
+
 import "../styles/Hello.scss";
 
-interface HomePageData {
-  message: string;
-  timestamp: string;
-}
+import type { RouteData } from "@taujs/server/config";
 
-interface HomePageProps {
+interface HelloProps {
   location?: string;
 }
 
-export function Hello({ location }: HomePageProps) {
-  const data = useSSRStore<HomePageData>();
+export function Hello({ location }: HelloProps) {
+  const data = useSSRStore<RouteData<typeof config, "/">>();
 
   return (
     <div className="home-container">
@@ -26,11 +25,9 @@ export function Hello({ location }: HomePageProps) {
             ? `Server-rendered at: ${new Date(data.timestamp).toLocaleString()}`
             : `Client-rendered at: ${new Date().toLocaleString()}`}
         </p>
-        {location && (
-          <p>
-            Current location: <strong>{location}</strong>
-          </p>
-        )}
+        <p>
+          Current location: <strong>{location}</strong>
+        </p>
       </div>
 
       <div className="home-actions">

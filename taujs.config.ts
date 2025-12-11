@@ -22,6 +22,17 @@ export default defineConfig({
             }),
           },
         },
+        {
+          path: "/other",
+          attr: {
+            render: "ssr",
+            data: async () => ({
+              id: "other",
+              message: "Hello from τjs!",
+              timestamp: new Date().toISOString(),
+            }),
+          },
+        },
       ],
     },
   ],

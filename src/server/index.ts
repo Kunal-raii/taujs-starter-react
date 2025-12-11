@@ -1,16 +1,9 @@
-import path from "node:path";
-
 import Fastify from "fastify";
 import { createServer } from "@taujs/server";
 
-import config from "../taujs.config.js";
+import config from "../../taujs.config.js";
 
 const isDev = process.env.NODE_ENV === "development";
-
-// Auto set as below if `clientRoot` omitted. Shown here for clarity.
-const clientRoot = isDev
-  ? path.resolve(process.cwd(), "client") // source
-  : path.resolve(process.cwd(), "dist/client"); // build
 
 const startServer = async () => {
   try {
@@ -19,7 +12,6 @@ const startServer = async () => {
     await createServer({
       fastify,
       config,
-      clientRoot,
       debug: { ssr: isDev },
     });
 
